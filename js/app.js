@@ -1,11 +1,9 @@
 //Inicialización de las variables
-var numeroInicial=3;
-var numeroCuenta=numeroInicial;
-//Usamos el operador resto para saber si el número es par
-var resto=numeroInicial%2;
-//Si no es par, debemos incrementar el numeroCuenta
-if(resto!=0) numeroCuenta++;
+var numeroFinal="doce";
+//Usamos el operador resto para saber si el número es imparpar
+var resto=0;
 //Comienza la cuenta
-for (let i = numeroCuenta; i < 11; i=i+2) {
-    console.log(i);
+for (let i = 0; i <= numeroFinal; i++) {
+    resto=i/2;
+    if(resto!=0) console.log(resto);
 }
